@@ -203,7 +203,7 @@ header {
 
 #hero .hero__content h1 {
   margin-left: 5rem;
-  margin-right: 15rem;
+  margin-right: 5rem;
   color: #fff;
   font-size: 8rem;
 }
@@ -447,6 +447,9 @@ footer .social__media_terms {
   }
   .col-2 {
     width: 33.33%;
+  }
+  h1 {
+    font-size: 7rem;
   }
 }
 
