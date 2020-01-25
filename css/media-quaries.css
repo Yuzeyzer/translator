@@ -1,0 +1,5 @@
+@media screen and (max-width: 998px){
+    #why .row .col-6 {
+        width: 100%;
+    }
+}
