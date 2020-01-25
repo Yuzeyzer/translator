@@ -461,6 +461,9 @@ footer .social__media_terms {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  #hero h1 {
+    font-size: 6rem !important;
+  }
   .nav-list {
     display: none;
   }
