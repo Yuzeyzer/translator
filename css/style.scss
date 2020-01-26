@@ -5,6 +5,7 @@
 }
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Roboto Condensed', sans-serif;
@@ -123,6 +124,64 @@ header {
 }
 .nav-list .list-items a {
     color: #fff;
+}
+.mobile__btn {
+    position: fixed;
+    right: 6rem;
+    top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    span {
+        position: relative;
+        height: 0.3rem;
+        width: 70%;
+        background-color: rgba(240,147,0,1);
+    }
+        span::before,span::after {
+            content: '';
+            position: absolute;
+            height: 0.3rem;
+            width: 100%;
+            background-color: rgba(240,147,0,1);
+            transition: 0.3s;
+        }
+        span::before {
+            transform: translateY(-1rem);
+        }
+        span::after {
+            transform: translateY(1rem);
+        }
+}
+.mobile__btn_active span {
+    height: 0;
+    &::before {
+        transform: rotate(45deg);
+    }
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
+.nav-list-active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240,147,0,1);
+    li {
+        text-transform: uppercase;
+        margin-top: 2rem;
+    }
 }
     /*HERO*/
 #hero {
