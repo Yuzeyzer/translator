@@ -6,6 +6,14 @@ $(document).ready(function(){
     $('.list-items').on('click', function(){
         $('.nav-list').removeClass('nav-list-active');
         $('.mobile__btn').removeClass('mobile__btn_active');
+    });
+    $('.eng__btn').on('click', function(){
+        $('.ru').addClass('none');
+        $('.eng').removeClass('none');
+    })
+    $('.ru__btn').on('click', function(){
+        $('.eng').addClass('none');
+        $('.ru').removeClass('none');
     })
     $(".hero__carousel").owlCarousel({
         items:1,

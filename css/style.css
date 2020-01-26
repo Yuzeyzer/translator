@@ -21,6 +21,14 @@ a {
   color: #D6D6D6;
 }
 
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 img {
   max-width: 100%;
 }
