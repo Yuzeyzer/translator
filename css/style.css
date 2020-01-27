@@ -300,14 +300,14 @@ header {
 
 #hero .hero__content h1 {
   margin-left: 5rem;
-  margin-right: 5rem;
+  padding-right: 5rem;
   color: #fff;
   font-size: 8rem;
 }
 
 #hero .hero__content p {
   margin: 5rem 5rem 5rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #fff;
 }
 
@@ -546,7 +546,7 @@ footer .social__media_terms {
     width: 33.33%;
   }
   h1 {
-    font-size: 7rem !important;
+    font-size: 6rem !important;
   }
 }
 
@@ -559,7 +559,7 @@ footer .social__media_terms {
        object-fit: cover;
   }
   #hero h1 {
-    font-size: 6rem !important;
+    font-size: 5rem !important;
   }
   .nav-list {
     display: none;

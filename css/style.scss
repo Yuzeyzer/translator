@@ -215,13 +215,13 @@ header {
         }
         h1 {
             margin-left: 5rem;
-            margin-right: 5rem;
+            padding-right: 5rem;
             color: #fff;
             font-size: 8rem;
         }
         p {
             margin: 5rem 5rem 5rem;
-            font-size: 4rem;
+            font-size: 3.5rem;
             color: #fff;
         }
     }
@@ -416,7 +416,7 @@ footer {
         width: 33.33%;
     }
     h1 {
-        font-size: 7rem !important;
+        font-size: 6rem !important;
     }
 }
 @media screen and (max-width:776px) {
@@ -428,7 +428,7 @@ footer {
             object-fit: cover;
         }
         h1 {
-            font-size: 6rem !important;
+            font-size: 5rem !important;
         }
     }
     .nav-list {
