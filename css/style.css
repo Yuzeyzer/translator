@@ -84,7 +84,7 @@ li {
 
 /*HEADER*/
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 5;
 }
@@ -174,13 +174,27 @@ header {
   color: #fff;
 }
 
+.lang {
+  font-size: 2rem;
+}
+
+.lang a {
+  letter-spacing: 0.3rem;
+}
+
+.lang a:nth-child(2) {
+  margin-left: 1rem;
+}
+
+.lang__active {
+  color: #fff;
+}
+
 .mobile__btn {
   position: fixed;
   right: 6rem;
   top: 6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -434,6 +448,11 @@ header {
   padding: 10rem 0;
 }
 
+#about .title {
+  font-size: 3rem;
+  margin: 0.5rem 0 3rem;
+}
+
 #about .about__number {
   font-size: 8rem;
   border: 0.2rem solid rgba(240, 147, 0, 0.7);
@@ -563,6 +582,11 @@ footer .social__media_terms {
   }
   .nav-list {
     display: none;
+  }
+  .mobile__btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .nav-top {
     padding: 0 5rem;

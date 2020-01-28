@@ -7,11 +7,13 @@ $(document).ready(function(){
         $('.nav-list').removeClass('nav-list-active');
         $('.mobile__btn').removeClass('mobile__btn_active');
     });
-    $('.eng__btn').on('click', function(){
+    $('.eng__btn').on('click', function(e){
+        e.preventDefault();
         $('.ru').addClass('none');
         $('.eng').removeClass('none');
     });
-    $('.ru__btn').on('click', function(){
+    $('.ru__btn').on('click', function(e){
+        e.preventDefault();
         $('.eng').addClass('none');
         $('.ru').removeClass('none');
     });
