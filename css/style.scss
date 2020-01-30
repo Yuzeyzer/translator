@@ -407,6 +407,9 @@ footer {
         display:inline-block;
         width: 100%;
         height: 100%;
+        img {
+            object-fit: cover;
+        }
     }
     img {
         min-height: 100%;
@@ -467,6 +470,9 @@ footer {
     }
     .col-6 {
         width: 100% !important;
+    }
+    .instruments .tech-items span {
+        left: -2.7em !important;
     }
 }
 @media screen and (max-width:576px) { 
