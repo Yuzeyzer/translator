@@ -533,6 +533,23 @@ footer .social__media_terms {
   padding: 5rem 0 0;
 }
 
+#gallery .gallery__item {
+  padding: 0.5rem;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#gallery .gallery__item img {
+  -webkit-transition: 0.125s;
+  transition: 0.125s;
+}
+
+#gallery .gallery__item:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 #gallery a {
   display: inline-block;
   width: 100%;
@@ -546,9 +563,7 @@ footer .social__media_terms {
 
 #gallery img {
   min-height: 100%;
-  min-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  max-width: 100%;
 }
 
 #gallery .title {
@@ -577,10 +592,6 @@ footer .social__media_terms {
 @media screen and (max-width: 776px) {
   html {
     font-size: 8px;
-  }
-  #hero img {
-    -o-object-fit: cover;
-       object-fit: cover;
   }
   #hero h1 {
     font-size: 5rem !important;
